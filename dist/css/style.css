@@ -234,9 +234,9 @@ align-items: center;
 display: none;
 }
 .nav_menu{
-    display: flex;
-    align-items: center;
-    gap: 4rem;
+display: flex;
+align-items: center;
+gap: 4rem;
 }
 
 .nav_menu a{
@@ -564,9 +564,9 @@ margin-bottom: 0;
 /*  ============ a style for footer ============ */
 /* If the screen size is 1024px or more, set the element to an intended proportio */
 @media(max-width: 1024px) {
-/* .container{
+.container{
     width: var(--container-width-md);
-} */
+}
 
 h1{
     font-size: 2.2rem;
@@ -692,9 +692,9 @@ grid-template-columns: 1fr 1fr;
 
 /*  ============ a query for phone view ============ */
 @media(max-width: 600px) {
-/*.container{
+.container{
     width: var(--container-width-sm);
-} */
+}
 /*  ============ a query for phone view Navbar ============ */
 .nav_menu{
     right: 3%;

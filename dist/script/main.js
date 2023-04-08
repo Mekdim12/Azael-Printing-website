@@ -4,7 +4,6 @@ window.addEventListener('scroll', () => {
     document.querySelector('nav').classList.toggle('window-scroll', window.scrollY > 0)
 })
 
-
 // display / hide nav menu
 const menu = document.querySelector(".nav_menu");
 const menuBtn = document.querySelector("#open-menu-btn");
@@ -12,7 +11,6 @@ const menuBtn = document.querySelector("#open-menu-btn");
 const closeBtn = document.querySelector("#close-menu-btn");
 
 menuBtn.addEventListener('click', () => {
-    console.log('mee')
     menu.style.display = "flex";
     closeBtn.style.display = "inline-block";
     // searchbox.style.display = "none";
