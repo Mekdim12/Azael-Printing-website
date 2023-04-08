@@ -28,7 +28,6 @@
     <link rel="stylesheet" href="./dist/css/minorstyle.css">
     
     <!-- <link rel="stylesheet" href="../dist/css/style.css"> -->
-    <!-- <script type="text/javascript" src="../dist/script/main.js"></script> -->
     
     <!-- The images and text contents are fetched from the database and added to the slick slider.
     jQuery Library:
@@ -37,15 +36,14 @@
     <!-- Slick Carousel Plugin:
     The jQuery slick plugin is used to add slider feature in HTML, so, include the CSS and JS library files of the slick slider. -->
     <!-- slick slider CSS library files -->
-    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
-    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+    <link rel="stylesheet" type="text/css" href="./dist/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="./dist/slick/slick-theme.css" />
     <!-- cdn link for bootstrapcdn to alter the menu bar -->
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
 
-    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.main.css' rel='stylesheet'>
-
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <!-- slick slider JS library file -->
-    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script type="text/javascript" src="./dist/slick/slick.min.js"></script>
     <!-- Use the slick() method to initialize the slider and attach it to the HTML element. 
     Specify the parent div class (.product-slider) as a selector to bind the slick slider.
     You can use some setting options to configure the slider as per the application requirement. -->

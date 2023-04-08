@@ -915,9 +915,9 @@ footer {
 /* ============ media queris (Tablet) ============ */
 
 @media screen and (max-width: 1024px) {
-	.container {
+	/* .container {
 		width: var(--container-width-md);
-	}
+	} */
 
 	h1 {
 		font-size: 2.2rem;
@@ -1163,9 +1163,9 @@ footer {
 	/* ============ media queris (Tablet) ============ */
 
 	@media screen and (max-width: 600px) {
-		.container {
+		/* .container {
 			width: var(--container-width-sm);
-		}
+		} */
 
 		/* h1{
       font-size: 2.2rem;
