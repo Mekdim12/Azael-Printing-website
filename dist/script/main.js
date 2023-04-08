@@ -12,7 +12,6 @@ const menuBtn = document.querySelector("#open-menu-btn");
 const closeBtn = document.querySelector("#close-menu-btn");
 
 menuBtn.addEventListener('click', () => {
-    console.log('mee')
     menu.style.display = "flex";
     closeBtn.style.display = "inline-block";
     // searchbox.style.display = "none";
@@ -52,7 +51,7 @@ var makeBSS = function (el, options) {
                     fullScreen: (typeof options.fullScreen === "undefined") ? false : options.fullScreen,
                     swipe: (typeof options.swipe === "undefined") ? false : options.swipe
                 };
-                
+
                 this.$items[0].classList.add('bss-show'); // add show class to first figure 
                 this.injectControls(el);
                 this.addEventListeners(el);
@@ -79,25 +78,25 @@ var makeBSS = function (el, options) {
                 [].forEach.call(this.$items, function (el) {
                     el.classList.remove('bss-show');
                 });
-  
+
                 // add .show to the one item that's supposed to have it
                 this.$items[this.counter].classList.add('bss-show');
             },
             injectControls: function (el) {
-            // build and inject prev/next controls
+                // build and inject prev/next controls
                 // first create all the new elements
                 var spanPrev = document.createElement("span"),
                     spanNext = document.createElement("span"),
                     docFrag = document.createDocumentFragment();
-        
+
                 // add classes
                 spanPrev.classList.add('bss-prev');
                 spanNext.classList.add('bss-next');
-        
+
                 // add contents
                 spanPrev.innerHTML = '&laquo;';
                 spanNext.innerHTML = '&raquo;';
-                
+
                 // append elements to fragment, then append fragment to DOM
                 docFrag.appendChild(spanPrev);
                 docFrag.appendChild(spanNext);
@@ -108,11 +107,11 @@ var makeBSS = function (el, options) {
                 el.querySelector('.bss-next').addEventListener('click', function () {
                     that.showCurrent(1); // increment & show
                 }, false);
-            
+
                 el.querySelector('.bss-prev').addEventListener('click', function () {
                     that.showCurrent(-1); // decrement & show
                 }, false);
-                
+
                 el.onkeydown = function (e) {
                     e = e || window.event;
                     if (e.keyCode === 37) {
@@ -127,7 +126,7 @@ var makeBSS = function (el, options) {
                     interval = window.setInterval(function () {
                         that.showCurrent(1); // increment & show
                     }, speed);
-                
+
                 if (pauseOnHover) {
                     el.addEventListener('mouseover', function () {
                         interval = clearInterval(interval);
@@ -138,57 +137,57 @@ var makeBSS = function (el, options) {
                         }, speed);
                     }, false);
                 } // end pauseonhover
-                
+
             },
-            addFullScreen: function(el){
+            addFullScreen: function (el) {
                 var that = this,
-                fsControl = document.createElement("span");
-                
+                    fsControl = document.createElement("span");
+
                 fsControl.classList.add('bss-fullscreen');
                 el.appendChild(fsControl);
                 el.querySelector('.bss-fullscreen').addEventListener('click', function () {
                     that.toggleFullScreen(el);
                 }, false);
             },
-            addSwipe: function(el){
+            addSwipe: function (el) {
                 var that = this,
                     ht = new Hammer(el);
-                ht.on('swiperight', function(e) {
+                ht.on('swiperight', function (e) {
                     that.showCurrent(-1); // decrement & show
                 });
-                ht.on('swipeleft', function(e) {
+                ht.on('swipeleft', function (e) {
                     that.showCurrent(1); // increment & show
                 });
             },
-            toggleFullScreen: function(el){
+            toggleFullScreen: function (el) {
                 // https://developer.mozilla.org/en-US/docs/Web/Guide/API/DOM/Using_full_screen_mode
                 if (!document.fullscreenElement &&    // alternative standard method
-                    !document.mozFullScreenElement && !document.webkitFullscreenElement &&   
-                    !document.msFullscreenElement ) {  // current working methods
+                    !document.mozFullScreenElement && !document.webkitFullscreenElement &&
+                    !document.msFullscreenElement) {  // current working methods
                     if (document.documentElement.requestFullscreen) {
-                      el.requestFullscreen();
+                        el.requestFullscreen();
                     } else if (document.documentElement.msRequestFullscreen) {
-                      el.msRequestFullscreen();
+                        el.msRequestFullscreen();
                     } else if (document.documentElement.mozRequestFullScreen) {
-                      el.mozRequestFullScreen();
+                        el.mozRequestFullScreen();
                     } else if (document.documentElement.webkitRequestFullscreen) {
-                      el.webkitRequestFullscreen(el.ALLOW_KEYBOARD_INPUT);
+                        el.webkitRequestFullscreen(el.ALLOW_KEYBOARD_INPUT);
                     }
                 } else {
                     if (document.exitFullscreen) {
-                      document.exitFullscreen();
+                        document.exitFullscreen();
                     } else if (document.msExitFullscreen) {
-                      document.msExitFullscreen();
+                        document.msExitFullscreen();
                     } else if (document.mozCancelFullScreen) {
-                      document.mozCancelFullScreen();
+                        document.mozCancelFullScreen();
                     } else if (document.webkitExitFullscreen) {
-                      document.webkitExitFullscreen();
+                        document.webkitExitFullscreen();
                     }
                 }
             } // end toggleFullScreen
-            
+
         }; // end Slideshow object 
-        
+
     // make instances of Slideshow as needed
     [].forEach.call($slideshows, function (el) {
         $slideshow = Object.create(Slideshow);
@@ -196,17 +195,17 @@ var makeBSS = function (el, options) {
     });
 };
 var opts = {
-    auto : {
-        speed : 5000, 
-        pauseOnHover : true
+    auto: {
+        speed: 5000,
+        pauseOnHover: true
     },
-    fullScreen : true, 
-    swipe : true
+    fullScreen: true,
+    swipe: true
 };
 makeBSS('.demo1', opts);
 
 
-// ended for background image slider 
+// ended for background image slider
 
 
 // a script for back to top
@@ -215,7 +214,7 @@ makeBSS('.demo1', opts);
 //     document.querySelector('button #myBtn').classList.toggle('window-scroll-d', window.scrollY > 5000 )
 // })
 
-// end of back to top button 
+// end of back to top button
 
 // // getting HTML elements
 // const nav = document.querySelector("nav"),

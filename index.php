@@ -10,8 +10,10 @@ include("../azaelprinting.com-v1/src/sendmail.php");
             <a href="index.php">
                 <h4>
                     <a href="index.php">
-                    <div class="logoimageholder">
-                        <img id="logo_image" src="./image/index/logoindx.png" alt="Not found" srcset=""> </div> </a>
+                        <div class="logoimageholder">
+                            <img id="logo_image" src="./image/index/logoindx.png" alt="Not found" srcset="">
+                        </div>
+                    </a>
                 </h4>
             </a>
 
@@ -21,10 +23,14 @@ include("../azaelprinting.com-v1/src/sendmail.php");
                 <li><a href="./src/service.php" title="available service provide by us"> Service </a></li>
                 <li><a href="./src/contact.php" title="detailes to contact us"> ContactUs </a>
                 </li>
+
             </ul>
-            <button id="open-menu-btn" title="click on to open Menu"><i class="uil uil-bars"></i> </button>
-            <button id="close-menu-btn" title="click on to close Menu"><i class="uil uil-multiply"></i>
-            </button>
+            <div class="ham-btn">
+                <button id="open-menu-btn" title="click on to open Menu"><i class="uil uil-bars"></i> </button>
+                <button id="close-menu-btn" title="click on to close Menu"><i class="uil uil-multiply"></i>
+                </button>
+            </div>
+
         </div>
     </nav>
     <!-- </div> -->
@@ -34,12 +40,12 @@ include("../azaelprinting.com-v1/src/sendmail.php");
     <div class="home_minor_css" title="You welcom to Azael Printing!  ">
         <div class="container home_container">
             <div class="homeBackground">
-                
-                    <img class="bgImg" src="./image/index/index.png" alt="Erorr 404: image not found ">
-                
+
+                <img class="bgImg" src="./image/index/index.png" alt="Erorr 404: image not found ">
+
 
                 <!-- <img   -->
-                <!-- <div class="fgPra">
+                <div class="fgPra">
                     <h1>Printing Service <br>In Addis Ababa</h1>
                     <p>
                         Azael is a printing business that offers high-quality products and services.
@@ -49,7 +55,7 @@ include("../azaelprinting.com-v1/src/sendmail.php");
                         see how we can help you!
                     </p>
                 </div>
-                <p><a href="./src/contact.php " class="btn" title="click on to contact us"><strong>Contact Us</strong></a> </p> -->
+                <p><a href="./src/contact.php " class="btn" title="click on to contact us"><strong>Contact Us</strong></a> </p>
 
             </div>
         </div>
@@ -76,4 +82,3 @@ include("../azaelprinting.com-v1/src/sendmail.php");
 
 
     <script type="text/javascript" src="./dist/script/main.js"></script>
-    
