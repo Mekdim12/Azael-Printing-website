@@ -1,0 +1,12 @@
+ 
+                 <!-- <button type="button" onclick="show()" id="btnId" > -->
+
+                <!-- </button>
+                            <script> 
+                                function show(){
+                                    document.getElementById('image').style.display = "block";
+
+                                    document.getElementById('btnId').style.display = "none";
+                                }
+                            </script> -->
+                <!-- <marquee behavior="scroll" direction="down"> -->
