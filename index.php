@@ -66,17 +66,51 @@ include("../azaelprinting.com-v1/src/sendmail.php");
 
 
 
+ <!-- ================================SECOND SECTION ======================= -->
+ <section class="services">
+        <h1>Services</h1>
+        <div class="container services_container" title="available services">
+            <article class="service">
+                <div class="service_image" title="Label and Stiker">
+                    <a href="./dist/contents/labsticker.php"> <img src="./image/index/index-2.jpg" alt=""></a>
+                </div>
+                <div class="service_info">
+                    <h1>Label And Sticker Printing</h1>
+                    <p style="color: #2d84e7 !important ;">A Service thatallows customers to request and
+                        print docmuments online </p>
+                    <!-- <a href="./dist/contents/labsticker.php" class="btn btn-primary">Detailes..</a>                     -->
+                </div>                
+            </article>
 
+            <article class="service" >
+                <div class="service_image" title="Branding Printing">
+                    <a href="./dist/contents/branding.php"> <img src="./image/index/index3.png" alt=""></a>
+                </div>
+                <div class="service_info">
+                    <h1>Branding Printing</h1>
+                    <p style="color: #2d84e7 !important ;">A Service that allows customers to order
+                        personalized
+                        documents that help them to brand themseleves
+                    </p>
+                    <!-- <a href="./dist/contents/branding.php" class="btn btn-primary">Detailes..</a>  -->
+                </div>                               
+            </article>
 
+            <article class="service" >
+                <div class="service_image" title="Logo Designing">
+                <a href="./dist/contents/logo.php"> <img id="image" src="./image/index/index4.png" alt="not found"></a>
+                </div>
+                <div class="service_info">
+                    <h1>Logo Designing</h1>
 
-
-
-
-
-
-
-
-
+                    <p style="color: #2d84e7 !important ;">A Service that allows customers to have a
+                        custom made logoswith best graphics designers</p>
+                    <!-- <a href="./dist/contents/logo.php" class="btn btn-primary">Detailes..</a>                      -->
+                </div>               
+            </article>
+        </div>
+    </section>
+    <!-- ================================END OF #SECOND SECTION ======================= -->
 
 
 

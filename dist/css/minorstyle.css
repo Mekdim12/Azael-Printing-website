@@ -1,11 +1,12 @@
 * {
-    overflow: hidden !important;
+    overflow-x: hidden !important;
 }
 
 .home_minor_css {
+    overflow: hidden !important;
     display: block !important;
-    width: 100% !important;
-    height: 100vh !important;
+    /* width: 99.54% !important; */
+    min-height: 100vh !important;
     padding: 0 !important;
     margin: 0 !important;
 }
@@ -21,6 +22,7 @@
 
 
 .fgPra {
+    overflow: hidden !important;
     position: absolute !important;
     top: 10rem !important;
     left: 8rem !important;
@@ -43,13 +45,20 @@
 
 
 .homeBackground .btn {
+    overflow: hidden !important;
 	top: 73vh !important;
 	position: absolute !important;
 	left: 10vw !important;
 	height: 2.7rem !important;
 }
 
+.services h1{
+    overflow: hidden !important;
+}
 
+.container,.homeBackground,.nav_menu,.ham-btn button, .nav_menu li{
+    overflow: hidden !important;
+}
 
 
 @media screen and (max-width: 280px) {
@@ -160,7 +169,7 @@
     .homeBackground .btn { 
         top: 67vh !important;
        position: absolute !important;
-       left: 15vw !important;
+       left: 10vw !important;
        height: 2rem !important;
        font-size: 14 !important;
        text-align: center;
@@ -210,11 +219,12 @@
     .homeBackground .btn { 
        top: 71vh !important;
        position: absolute !important;
-       left: 15vw !important;
+       left: 10vw !important;
        height: 2.3rem !important;
        font-size: 16 !important;
        text-align: center;
        padding: 1px;
+       width: 150px;
    }
 
 
@@ -267,6 +277,7 @@
        font-size: 19.5 !important;
        text-align: center;
        padding: 1px;
+       width: 250px !important;
    }
 
 
