@@ -20,9 +20,70 @@
 }
 
 
+.fgPra {
+    position: absolute !important;
+    top: 10rem !important;
+    left: 8rem !important;
+    right: 35% !important;
+    height: 35% !important;
+    text-align: left !important;
+    padding-bottom: 2rem !important;
+}
+
+.fgPra h1 {
+    font-size: 38 !important;
+    padding-bottom: 1.5rem !important;
+}
+
+.fgPra p {
+    font-weight: lighter !important;
+    font-size: 20 !important;
+    margin-bottom: 2rem !important;
+}
+
+
+.homeBackground .btn {
+	top: 73vh !important;
+	position: absolute !important;
+	left: 10vw !important;
+	height: 2.7rem !important;
+}
+
+
 
 
 @media screen and (max-width: 280px) {
+    
+    
+    #logo_image {
+        position: relative !important;
+        width: fit-content !important;
+        height: fit-content !important;
+        top: 0 !important;
+        float: none !important;
+        left: -50 !important;
+
+    }
+
+    .fgPra h1 {
+        font-size: 25 !important;
+        padding-bottom: 1.5rem !important;
+    }
+
+    .fgPra {
+        top: 7rem !important;
+        left: 1rem !important;
+        right: 35% !important;
+        height: 50% !important;
+        text-align: left !important;
+        padding-bottom: 0 !important;  
+    }
+
+    .fgPra p {
+        font-size: 14 !important;
+       
+    }
+
     .nav_menu li:first-child {
         margin-top: 10% !important;
     }
@@ -32,7 +93,24 @@
         width: 200px !important;
     }
 
+    .homeBackground .btn{
+        
+        top: 68vh !important;
+        position: absolute !important;
+        left: 10vw !important;
+        height: 2rem !important;
+        font-size: 14 !important;
+        text-align: center;
+       
+        
+    }
+    
+    
+    
+ 
+
 }
+
 
 @media screen and (max-width: 321px) {
     .nav_menu li:first-child {
@@ -48,7 +126,7 @@
 
     .bgImg {
         object-fit: revert !important;
-        height: 70vh !important;
+        height: 75vh !important;
     }
 
     #logo_image {
@@ -60,6 +138,34 @@
         left: 0 !important;
 
     }
+
+    .fgPra h1 {
+        font-size: 25 !important;
+        padding-bottom: 1.5rem !important;
+    }
+
+    .fgPra {
+        top: 7rem !important;
+        left: 1rem !important;
+        right: 35% !important;
+        height: 50% !important;
+        text-align: left !important;
+        padding-bottom: 0 !important;  
+    }
+
+    .fgPra p {
+        font-size: 14 !important;
+       
+    }
+    .homeBackground .btn { 
+        top: 67vh !important;
+       position: absolute !important;
+       left: 15vw !important;
+       height: 2rem !important;
+       font-size: 14 !important;
+       text-align: center;
+   }
+
 }
 
 
@@ -82,6 +188,36 @@
         left: 0 !important;
 
     }
+
+    .fgPra h1 {
+        font-size: 30 !important;
+        padding-bottom: 2rem !important;
+    }
+
+    .fgPra {
+        width: 95%;
+        top: 7rem !important;
+        left: 1rem !important;
+        height: 50% !important;
+        text-align: left !important;
+        padding-bottom: 0 !important;  
+    }
+
+    .fgPra p {
+       font-size: 18 !important;
+       
+    }
+    .homeBackground .btn { 
+       top: 71vh !important;
+       position: absolute !important;
+       left: 15vw !important;
+       height: 2.3rem !important;
+       font-size: 16 !important;
+       text-align: center;
+       padding: 1px;
+   }
+
+
 }
 
 @media screen and (max-width: 575px) and (min-width: 421px) {
@@ -103,10 +239,41 @@
         left: 0 !important;
 
     }
+
+    .fgPra h1 {
+        font-size: 33 !important;
+        padding-bottom: 2rem !important;
+        word-wrap: normal;
+    }
+
+    .fgPra {
+        width: 90%;
+        top: 7rem !important;
+        left: 10vw !important;
+        height: 55% !important;
+        text-align: left !important;
+        padding-bottom: 0 !important;  
+    }
+
+    .fgPra p {
+       font-size: 20 !important;
+       
+    }
+    .homeBackground .btn { 
+       top: 79vh !important;
+       position: absolute !important;
+       left: 10vw !important;
+       height: 2.5rem !important;
+       font-size: 19.5 !important;
+       text-align: center;
+       padding: 1px;
+   }
+
+
 }
 
 
-@media screen and (max-width: 768px) and (min-width: 576px) {
+@media screen and (max-width: 768px) and (min-width: 575px) {
     .nav_menu li:first-child {
         margin-top: 10% !important;
     }
@@ -131,11 +298,44 @@
         left: 0 !important;
 
     }
+
+    .fgPra h1 {
+        font-size: 33 !important;
+        padding-bottom: 2.3rem !important;
+        word-wrap: normal;
+    }
+
+    .fgPra {
+        width: 80%;
+        top: 7rem !important;
+        left: 10vw !important;
+        height: 55% !important;
+        text-align: left !important;
+        padding-bottom: 0 !important;  
+
+    }
+
+    .fgPra p {
+       font-size: 21 !important;
+    }
+
+    .homeBackground .btn { 
+       width: 250px !important;
+       top: 75vh !important;
+       position: absolute !important;
+       left: 10vw !important;
+       height: 2.8rem !important;
+       font-size: 21.5 !important;
+       text-align: center;
+       padding: 3px ;
+   }
+
+
 }
 
 
 
-@media screen and (max-width: 992px) and (min-width: 769px) {
+@media screen and (max-width: 992px) and (min-width: 768px) {
     .nav_menu li:first-child {
         margin-top: 10% !important;
     }
@@ -160,6 +360,40 @@
         float: none !important;
         left: 0 !important;
     }
+
+    
+    .fgPra h1 {
+        font-size: 34 !important;
+        padding-bottom: 2.3rem !important;
+        word-wrap: normal;
+    }
+
+    .fgPra {
+        width: 80%;
+        top: 7rem !important;
+        left: 10vw !important;
+        height: 55% !important;
+        text-align: left !important;
+        padding-bottom: 0 !important;  
+
+    }
+
+    .fgPra p {
+       font-size: 22 !important;
+    }
+
+    .homeBackground .btn { 
+       width: 300px !important;
+       top: 75vh !important;
+       position: absolute !important;
+       left: 10vw !important;
+       height: 3rem !important;
+       font-size: 21.5 !important;
+       text-align: center;
+       padding: 5px ;
+   }
+
+   
 }
 
 @media screen and (min-width:1023px) {
@@ -183,19 +417,114 @@
     }
 
 
+    
+}
+
+@media screen and (max-width:1200px ) and (min-width: 992px) {
+
+    .fgPra h1 {
+        font-size: 35.5 !important;
+        padding-bottom: 2.5rem !important;
+        word-wrap: normal;
+    }
+
+    .fgPra {
+        /* width: 80%; */
+        top: 7rem !important;
+        left: 10vw !important;
+        height: 85% !important;
+        text-align: left !important;
+        padding-bottom: 0 !important;  
+    }
+
+    .fgPra p {
+       font-size: 24 !important;
+    }
+
+    .homeBackground .btn { 
+       width: 350px !important;
+       top: 85vh !important;
+       position: absolute !important;
+       left: 10vw !important;
+       height: 3rem !important;
+       font-size: 21.5 !important;
+       text-align: center;
+       padding: 5px ;
+   }
+
+
+
+   
+} 
+
+
+
+@media screen and (max-width:1400px ) and (min-width: 1200px) {
+   
+    .fgPra h1 {
+        font-size: 35.5 !important;
+        padding-bottom: 2.5rem !important;
+        word-wrap: normal;
+    }
+
+    .fgPra {
+        /* width: 80%; */
+        top: 7rem !important;
+        left: 10vw !important;
+        height: 85% !important;
+        text-align: left !important;
+        padding-bottom: 0 !important;  
+    }
+
+    .fgPra p {
+       font-size: 24 !important;
+    }
+
+    .homeBackground .btn { 
+       width: 350px !important;
+       top: 85vh !important;
+       position: absolute !important;
+       left: 10vw !important;
+       height: 3rem !important;
+       font-size: 21.5 !important;
+       text-align: center;
+       padding: 5px ;
+   }
 
 }
 
-/* @media screen and (max-width:1200px ) and (min-width: 993px) {
-  
-}
 
-@media screen and (max-width:1400px ) and (min-width: 1201px) {
-   
-   
-} */
+
+
 
 /* rare case for exremely large monitors*/
-/* @media screen and (min-width: 1401px) {
-    
-} */
+@media screen and (min-width: 1400px) {
+    .fgPra h1 {
+        font-size: 42.5 !important;
+        padding-bottom: 2.5rem !important;
+        word-wrap: normal;
+    }
+
+    .fgPra {
+        top: 12rem !important;
+        left: 10vw !important;
+        height: 85% !important;
+        text-align: left !important;
+        padding-bottom: 0 !important;  
+    }
+
+    .fgPra p {
+       font-size: 24 !important;
+    }
+
+    .homeBackground .btn { 
+       width: 300px !important;
+       top: 72vh !important;
+       position: absolute !important;
+       left: 10vw !important;
+       height: 3.2rem !important;
+       font-size: 21.5 !important;
+       text-align: center;
+       padding: 6px ;
+   }
+}

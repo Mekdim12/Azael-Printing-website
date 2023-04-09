@@ -46,7 +46,7 @@ include("../azaelprinting.com-v1/src/sendmail.php");
 
                 <!-- <img   -->
                 <div class="fgPra">
-                    <h1>Printing Service <br>In Addis Ababa</h1>
+                    <h1>Printing Service In <br>Addis Ababa</h1>
                     <p>
                         Azael is a printing business that offers high-quality products and services.
                         We offer custom printing, design, and delivery, so you can get the perfect
@@ -55,7 +55,7 @@ include("../azaelprinting.com-v1/src/sendmail.php");
                         see how we can help you!
                     </p>
                 </div>
-                <p><a href="./src/contact.php " class="btn" title="click on to contact us"><strong>Contact Us</strong></a> </p>
+                <p><a href="./src/contact.php " class="btn contact-us_btn" title="click on to contact us">Contact Us</strong></a> </p>
 
             </div>
         </div>
