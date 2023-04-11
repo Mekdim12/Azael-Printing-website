@@ -56,9 +56,60 @@
     overflow: hidden !important;
 }
 
-.container,.homeBackground,.nav_menu,.ham-btn button, .nav_menu li{
+.container,.homeBackground,.contactus,.nav_menu, .contact_right,.ham-btn button, .nav_menu li{
     overflow: hidden !important;
 }
+
+
+.testimonial{
+    overflow: hidden !important;
+    position: relative;
+}
+
+.testimonialtextbodyHolder{
+    position: absolute;
+    left: 40%;
+    top: 35%;
+}
+
+
+.imgT{
+    height: 50%;
+    object-fit: revert;
+}
+
+ 
+.testimonialtextbodyHolder blockquote>q{
+    color: whitesmoke;
+    padding: 0 0 0 0;
+    font-size: 28;
+    font-weight: 250;
+    font-family: "Kanit", sans-serif; 
+  }
+
+
+  .testimonialtextbodyHolder blockquote{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+
+.nameoftest{
+    padding: 20px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+ 
+
+.nameoftest p {
+    font-size: 24;
+    font-weight: 250;
+    font-family: "Kanit", sans-serif;
+} 
+
 
 
 @media screen and (max-width: 280px) {
@@ -113,11 +164,77 @@
        
         
     }
-    
-    
-    
- 
+    .testimonialtextbodyHolder{
+        position: absolute;
+        left: 35%;
+        top: 25%;
+    }
+  
+    .testimonialtextbodyHolder blockquote>q{
+        font-size: 14.5;
+        font-weight: 250;
+        font-family: "Kanit", sans-serif; 
+    }
 
+      .nameoftest p {
+        padding: 0 2rem 0 2rem;
+        font-size: 14;
+        font-weight: 250;
+        font-family: "Kanit", sans-serif;
+    } 
+    .nameoftest{
+        padding:15px 0 0 0;
+     
+    }
+
+    .contactus{
+        margin-bottom: 0 !important;
+        height: auto !important;
+    }
+    .contactus_container{
+        grid-template-columns: 100%  !important;
+         
+        gap: 1rem;
+        margin-top: 2.5rem !important;
+        margin-bottom: 1.5rem !important;
+        padding:  1rem !important;
+          
+    }
+
+    .azaelPrint h1 {
+        text-align: left;
+        font-weight: bold;
+        font-size: 24;
+        font-family: "Kanit", sans-serif !important;
+    }
+
+    .azaelPrint p {
+        color: var(--color-black) !important;
+        font-size: 11;
+        text-align: left;
+        padding: 5px;
+    }
+    .right-side {
+        margin: 0.5rem !important;
+    }
+
+    .send{
+        margin-top: 1rem !important;
+        display: grid;
+        grid-template-columns:100% !important;
+        gap: 2rem;
+    }
+
+
+    .submitbtn{
+        font-size: 18 !important;
+    }
+    .infostatus{
+        font-size: 14 !important;
+    }
+
+   
+    
 }
 
 
@@ -175,7 +292,80 @@
        text-align: center;
    }
 
+   .testimonialtextbodyHolder{
+    position: absolute;
+    left: 35%;
+    top: 25%;
 }
+
+.testimonialtextbodyHolder blockquote>q{
+    font-size: 14.5;
+    font-weight: 250;
+    font-family: "Kanit", sans-serif; 
+}
+
+  .nameoftest p {
+    padding: 0 2rem 0 2rem;
+    font-size: 14;
+    font-weight: 250;
+    font-family: "Kanit", sans-serif;
+} 
+.nameoftest{
+    padding:15px 0 0 0;
+ 
+}
+
+.contactus{
+    margin-bottom: 0 !important;
+    height: auto !important;
+}
+.contactus_container{
+    grid-template-columns: 100%  !important;
+     
+    gap: 1rem;
+    margin-top: 2.5rem !important;
+    margin-bottom: 1.5rem !important;
+    padding:  1rem !important;
+      
+}
+
+.azaelPrint h1 {
+    text-align: left;
+    font-weight: bold;
+    font-size: 24;
+    font-family: "Kanit", sans-serif !important;
+}
+
+.azaelPrint p {
+    color: var(--color-black) !important;
+    font-size: 11;
+    text-align: left;
+    padding: 5px;
+}
+.right-side {
+    margin: 0.5rem !important;
+}
+
+.send{
+    margin-top: 1rem !important;
+    display: grid;
+    grid-template-columns:100% !important;
+    gap: 2rem;
+}
+
+
+.submitbtn{
+    font-size: 18 !important;
+}
+.infostatus{
+    font-size: 14 !important;
+}
+ 
+
+
+}
+
+
 
 
 @media screen and (max-width: 420px) and (min-width: 321px) {
@@ -228,9 +418,80 @@
    }
 
 
+
+   .testimonialtextbodyHolder{
+    position: absolute;
+    left: 35%;
+    top: 28%;
 }
 
-@media screen and (max-width: 575px) and (min-width: 421px) {
+.testimonialtextbodyHolder blockquote>q{
+    font-size: 14.5;
+    font-weight: 250;
+    font-family: "Kanit", sans-serif; 
+}
+
+  .nameoftest p {
+    padding: 0 2rem 0 2rem;
+    font-size: 14;
+    font-weight: 250;
+    font-family: "Kanit", sans-serif;
+    } 
+    .nameoftest{
+        padding:15px 0 0 0;
+    
+    }
+    
+    .contactus{
+        margin-bottom: 0 !important;
+        height: auto !important;
+    }
+    .contactus_container{
+        grid-template-columns: 100%  !important;
+         
+        gap: 1rem;
+        margin-top: 2.5rem !important;
+        margin-bottom: 1.5rem !important;
+        padding:  1rem !important;
+          
+    }
+
+    .azaelPrint h1 {
+        text-align: center !important;
+        font-weight: bold;
+        font-size: 26;
+        font-family: "Kanit", sans-serif !important;
+    }
+
+    .azaelPrint p {
+        color: var(--color-black) !important;
+        font-size: 13;
+        text-align:  center !important;
+        padding: 15px;
+    }
+    .right-side {
+        margin: 0.5rem !important;
+    }
+
+    .send{
+        margin-top: 1rem !important;
+        display: grid;
+        grid-template-columns:100% !important;
+        gap: 2rem;
+    }
+
+
+    .submitbtn{
+        font-size: 18 !important;
+    }
+    .infostatus{
+        font-size: 14 !important;
+    }
+}
+
+
+
+@media screen and (max-width: 575px) and (min-width: 420px) {
     .nav_menu li:first-child {
         margin-top: 10% !important;
     }
@@ -280,6 +541,74 @@
        width: 250px !important;
    }
 
+   
+   .testimonialtextbodyHolder{
+    position: absolute;
+    left: 35%;
+    top: 32%;
+}
+
+    .testimonialtextbodyHolder blockquote>q{
+        font-size: 14.5;
+        font-weight: 250;
+        font-family: "Kanit", sans-serif; 
+    }
+
+  .nameoftest p {
+    padding: 0 2rem 0 2rem;
+    font-size: 14;
+    font-weight: 250;
+    font-family: "Kanit", sans-serif;
+    } 
+
+    .nameoftest{
+        padding:15px 0 0 0;
+    }
+    
+    .contactus{
+        margin-bottom: 0 !important;
+        height: auto !important;
+        padding: 0 4% 0 4% ;
+    }
+    .contactus_container{
+        grid-template-columns: 100%  !important;     
+        gap: 1rem;
+        margin-top: 3.5rem !important;
+        margin-bottom: 2.5rem !important;
+        padding:  1rem !important;  
+    }
+
+    .azaelPrint h1 {
+        text-align: center !important;
+        font-weight: bold;
+        font-size: 26;
+        font-family: "Kanit", sans-serif !important;
+    }
+
+    .azaelPrint p {
+        color: var(--color-black) !important;
+        font-size: 13;
+        text-align:  center !important;
+        padding: 15px;
+    }
+    .right-side {
+        margin: 0.5rem !important;
+    }
+
+    .send{
+        margin-top: 1rem !important;
+        display: grid;
+        grid-template-columns:100% !important;
+        gap: 2rem;
+    }
+
+
+    .submitbtn{
+        font-size: 19 !important;
+    }
+    .infostatus{
+        font-size: 14 !important;
+    }
 
 }
 
@@ -342,11 +671,81 @@
    }
 
 
+   
+   .testimonialtextbodyHolder{
+    position: absolute;
+    left: 35%;
+    top: 32%;
+}
+
+    .testimonialtextbodyHolder blockquote>q{
+        font-size: 18.5;
+        font-weight: 250;
+        font-family: "Kanit", sans-serif; 
+    }
+
+  .nameoftest p {
+    padding: 0 2rem 0 2rem;
+    font-size: 16;
+    font-weight: 250;
+    font-family: "Kanit", sans-serif;
+    } 
+
+    .nameoftest{
+        padding:15px 0 0 0;
+    }
+
+    .contactus{
+        margin-bottom: 0 !important;
+        height: auto !important;
+        padding: 0 6% 0 6% ;
+    }
+    .contactus_container{
+        grid-template-columns: 100%  !important;     
+        gap: 1rem;
+        margin-top: 3.5rem !important;
+        margin-bottom: 2.5rem !important;
+        padding:  1rem !important;  
+    }
+
+    .azaelPrint h1 {
+        text-align: center !important;
+        font-weight: bold;
+        font-size: 26;
+        font-family: "Kanit", sans-serif !important;
+    }
+
+    .azaelPrint p {
+        color: var(--color-black) !important;
+        font-size: 13;
+        text-align:  center !important;
+        padding: 15px;
+    }
+    .right-side {
+        margin: 0.5rem !important;
+    }
+
+    .send{
+        margin-top: 1rem !important;
+        display: grid;
+        grid-template-columns:100% !important;
+        gap: 2rem;
+    }
+
+
+    .submitbtn{
+        font-size: 19 !important;
+    }
+    .infostatus{
+        font-size: 14 !important;
+    }
+
+
 }
 
 
 
-@media screen and (max-width: 992px) and (min-width: 768px) {
+@media screen and (max-width: 1023px) and (min-width: 768px) {
     .nav_menu li:first-child {
         margin-top: 10% !important;
     }
@@ -404,7 +803,74 @@
        padding: 5px ;
    }
 
-   
+    .testimonialtextbodyHolder{
+        position: absolute;
+        left: 35%;
+        top: 35%;
+    }
+
+    .testimonialtextbodyHolder blockquote>q{
+        font-size: 20.5;
+        font-weight: 250;
+        font-family: "Kanit", sans-serif; 
+    }
+
+    .nameoftest p {
+        padding: 0 2rem 0 2rem;
+        font-size: 17;
+        font-weight: 250;
+        font-family: "Kanit", sans-serif;
+        } 
+
+        .nameoftest{
+            padding:15px 0 0 0;
+        }
+
+        .contactus{
+            margin-bottom: 0 !important;
+            height: auto !important;
+            padding: 0 10% 0 10% ;
+        }
+        .contactus_container{
+            grid-template-columns: 100%  !important;     
+            gap: 1rem;
+            margin-top: 3.5rem !important;
+            margin-bottom: 2.5rem !important;
+            padding:  1rem !important;  
+        }
+    
+        .azaelPrint h1 {
+            text-align: center !important;
+            font-weight: bold;
+            font-size: 26;
+            font-family: "Kanit", sans-serif !important;
+        }
+    
+        .azaelPrint p {
+            color: var(--color-black) !important;
+            font-size: 13;
+            text-align:  center !important;
+            padding: 15px;
+        }
+        .right-side {
+            margin: 0.5rem !important;
+        }
+    
+        .send{
+            margin-top: 1rem !important;
+            display: grid;
+            grid-template-columns:100% !important;
+            gap: 2rem;
+        }
+    
+    
+        .submitbtn{
+            font-size: 19 !important;
+        }
+        .infostatus{
+            font-size: 14 !important;
+        }
+
 }
 
 @media screen and (min-width:1023px) {
@@ -427,6 +893,44 @@
         gap: 2rem !important;
     }
 
+    .testimonialtextbodyHolder{
+        position: absolute;
+        left: 35%;
+        top: 38%;
+    }
+
+        .testimonialtextbodyHolder blockquote>q{
+            font-size: 19.5;
+            font-weight: 250;
+            font-family: "Kanit", sans-serif; 
+        }
+
+    .nameoftest p {
+        padding: 0 2rem 0 2rem;
+        font-size: 16;
+        font-weight: 250;
+        font-family: "Kanit", sans-serif;
+        } 
+
+        .nameoftest{
+            padding:15px 0 0 0;
+        }
+
+        
+        .contactus{
+            margin-bottom: 0 !important;
+            height: auto !important;
+       }
+        .contactus_container{
+            gap: 1rem;
+            margin-top: 3.5rem !important;
+            margin-bottom: 3.5rem !important;
+            padding:  4rem !important;  
+        }
+
+        .send{
+            margin-top: 0.6rem;
+        }
 
     
 }
