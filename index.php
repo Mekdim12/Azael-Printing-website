@@ -200,21 +200,6 @@ include("../azaelprinting.com-v1/src/sendmail.php");
                         <label class="infostatus" for="info">Your Submission Status: <?php echo $alert;?> </label>
 
                     </div>
-                    <!-- <p>
-                                <label for="to">To: </label>
-                                <input type="text" name="to" placeholder="To.." >
-                            
-                                </p>
-                                <p>
-                                    <label for="subject">Subject</label>
-                                    <input type="text" name="subject" placeholder="Subject..." >
-                                </p>
-                                <p>
-                                    <label for="name">Message</label>
-                                    <input type="text" name="message" placeholder="Message" >
-                                </p>
-                                <button name="submit" name='submit' >Send</button>
-                             -->
                           
 
                 </form>
@@ -225,6 +210,40 @@ include("../azaelprinting.com-v1/src/sendmail.php");
     </div>
     <!-- ================================END OF #FOURTH SECTION ======================= -->
 
+    <!-- ================================ FIVTH SECTION ======================= -->
+    <div class="aboutus" title="About Us">
 
+        <div class="about_container">
+            <div class="container aboutus_container">
+
+                <img class="abtImg" src="./image/index/index6.png" alt="">
+                <div class="aboutus_htry">
+                    <h1>About us</h1>
+                    <p>
+                        <!-- <marquee behavior="scroll" direction="up"> -->
+                             Hello everyone! I'm the founder of Azael, a
+                            digital
+                            printing business based here in the city. We
+                            specialize in printing business cards, flyers, brochures, and other promotional
+                            materials. We
+                            also offer customers to have a satisfactory experience make sure your promotional
+                            materials look
+                            exactly the way you At Azael, we use the latest
+                            technology and highest-quality materials to make sure that all of our products stand
+                            out. We
+                            also take pride in providing excellent customer
+                            service, so that you always have a positive experience
+                            with us. We strive to make sure that your project comes out exactly how you
+                            envisioned it. So if
+                            you're looking for a reliable printing service,
+                            look no further than Azael! 
+                            <!-- </marquee> -->
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ================================END OF #FIVTH SECTION ======================= -->
+    <!-- </div> -->
 
     <script type="text/javascript" src="./dist/script/main.js"></script>
