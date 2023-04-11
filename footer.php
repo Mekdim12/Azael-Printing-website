@@ -19,43 +19,27 @@
                                         alt="image telegram"></a> </li>
                             <li><a id="7" href="#" target="_blank"><img src="./image/contact/icons8-tiktok-50.png"
                                         alt="image tiktok"> </a> </li>
-                        </ul> <br>
+                        </ul> 
                         <p>
                             <a href="mailto:info@azaelprinting.com" title="Emailing to us">@azaelprinting.com</a>
                         </p>
                     </div>
 
                     <div class="footer_4">
-                        <!-- <h4>CONTACT US </h4>
-                        <div class="address">
-                            <p><i class="uil uil-phone-volume">09-41-41-31-32</i> &nbsp;&nbsp;&nbsp; <i
-                                    class="uil uil-phone-volume">07-03-79-24-47</i></p>
-                            <p><i class="uil uil-location-point"> Remet Tabor Oda Building, Piassa,</i>
-                            <h2>Addis Ababa,
-                                Ethiopia.</h2>
-                            </p>
-                        </div> -->
+                       
                     </div>
                     <div class="footer_3">
-                        <!-- <h4>CONTACT US </h4>
-                        <div class="address">
-                            <p><i class="uil uil-phone-volume">09-41-41-31-32</i> &nbsp;&nbsp;&nbsp; <i
-                                    class="uil uil-phone-volume">07-03-79-24-47</i></p>
-                            <p><i class="uil uil-location-point"> Remet Tabor Oda Building, Piassa,</i>
-                            <h2>Addis Ababa,
-                                Ethiopia.</h2>
-                            </p>
-                        </div> -->
+                    
                     </div>
                     <div class="footer_2" title="To Contact Us Address">
                         <h4 title="Contact Us">CONTACT US </h4>
                         <div class="address">
                             <p title="call us through mobile phone"><i class="uil uil-phone-volume">09-41-41-31-32</i>
                                 &nbsp;&nbsp;&nbsp; <i class="uil uil-phone-volume">07-03-79-24-47</i></p>
+                           
                             <p title="our location address"><i class="uil uil-location-point"> Remet Tabor Oda Building,
                                     Piassa,</i>
-                            <h2 title="City Addis Ababa">Addis Ababa,
-                                Ethiopia.</h2>
+                            <h2 title="City Addis Ababa">Addis Ababa, Ethiopia.</h2>
                             </p>
                         </div>
                     </div>

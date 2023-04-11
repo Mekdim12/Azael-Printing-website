@@ -847,12 +847,13 @@ footer {
 .footer_socialmds li {
 	display: inline-block;
 	gap: 1rem;
-	max-width: 2rem;
-	max-height: 1rem;
+	/* max-width: 2rem;
+	max-height: 1rem; */
 }
 
 .footer_socialmds li img {
 	border-radius: 50%;
+	width: 60%;
 }
 
 .footer_socialmds li p a {

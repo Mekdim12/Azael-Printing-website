@@ -246,4 +246,8 @@ include("../azaelprinting.com-v1/src/sendmail.php");
     <!-- ================================END OF #FIVTH SECTION ======================= -->
     <!-- </div> -->
 
+    <?php
+        include("footer.php");
+    ?>
+
     <script type="text/javascript" src="./dist/script/main.js"></script>
