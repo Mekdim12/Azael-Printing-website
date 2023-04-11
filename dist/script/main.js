@@ -5,6 +5,8 @@ window.addEventListener('scroll', () => {
 })
 
 
+
+
 // display / hide nav menu
 const menu = document.querySelector(".nav_menu");
 const menuBtn = document.querySelector("#open-menu-btn");
@@ -249,3 +251,6 @@ makeBSS('.demo1', opts);
 // nav.addEventListener("mouseleave", () => {
 //     nav.removeEventListener("mousemove", onDrag);
 // });
+
+
+

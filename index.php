@@ -129,17 +129,17 @@ include("../azaelprinting.com-v1/src/sendmail.php");
                             needs.
                         </q>
                         <br>
-                        
+
 
                     </blockquote>
                     <div class="nameoftest">
-                            <p>
-                                - Girma Getachew
-                            </p>
+                        <p>
+                            - Girma Getachew
+                        </p>
                     </div>
 
                 </div>
-              
+
             </div>
         </div>
     </div>
@@ -149,7 +149,7 @@ include("../azaelprinting.com-v1/src/sendmail.php");
 
 
     <!-- ================================FOURTH SECTION ======================= -->
-    <div class="contactus" title="Contact Us Form" id="contactus" >
+    <div class="contactus" title="Contact Us Form" id="contactus">
         <!-- <h1>Contact Us </h1> -->
         <!-- <div class="contactus_right"> -->
         <div class="container content contactus_container">
@@ -165,42 +165,40 @@ include("../azaelprinting.com-v1/src/sendmail.php");
                 <!-- <div class="topic-text">Send us a message</div>
                             <p>If you have any work from me or any types of quries related to my tutorial, you can send me message from
                                 here. It's my pleasure to help you.</p> -->
-                <form method="post" name="contact_form">
+                <form method="post" name="contact_form" enctype="multipart/form-data">
                     <div class="inputs">
-                        <input type="text" name="name" placeholder="Name" title="Please filout your name here.."
-                            required>
-                        <input type="email" name="email" placeholder="Email" title="Please filout your email here.."
-                            required>
+                        <input type="text" name="name" placeholder="Name" title="Please filout your name here.." required>
+                        <input type="email" name="email" placeholder="Email" title="Please filout your email here.." required>
                     </div>
                     <div class="msg">
                         <br>
-                        <input type="text" name="subject" placeholder="Subject..."
-                            title="Please filout a subject here.." required>
-                        <textarea name="message" placeholder="Message" rows="7" cols="20"
-                            title="Please leave your message here.." required></textarea>
+                        <input type="text" name="subject" placeholder="Subject..." title="Please filout a subject here.." required>
+                        <textarea name="message" placeholder="Message" rows="7" cols="20" title="Please leave your message here.." required></textarea>
 
                     </div>
                     <div class="send">
                         <?php if (empty($msg)) { ?>
-                        <!-- <form method="post" enctype="multipart/form-data"> -->
-                        <input class="fileChoose" type="hidden" name="MAX_FILE_SIZE" value="100000">
-                        <!-- Select one or more files -->
-                        <input class="fileChoose" name="userfile[]" type="file" multiple="multiple"
-                            title="If you want, attch your file/s here...">
-                        <!-- <input class="fileChoose" type="submit" value="Send Files"> -->
-                        <!-- </form> -->
+                            <!-- <form method="post" enctype="multipart/form-data"> -->
+                            <input class="fileChoose" type="hidden" name="MAX_FILE_SIZE" value="100000">
+                            <!-- Select one or more files -->
+                            <input class="fileChoose" name="userfile[]" type="file" multiple="multiple" title="If you want, attch your file/s here...">
+                            <!-- <input class="fileChoose" type="submit" value="Send Files"> -->
+                            <!-- </form> -->
                         <?php } else {
-                                            echo htmlspecialchars($msg);
-                                        } ?>
+                            echo htmlspecialchars($msg);
+                        } ?>
 
-                        <button type="submit" name="submit" class="btn btn-primary submitbtn" onclick="openPopup()" id="btn"
-                            title="If you finished, just click send button."> Submit</button>
+
+                        <?php
+
+                        ?>
+                        <button type="submit" name="submit" class="btn btn-primary submitbtn" id="btn" title="If you finished, just click send button."> Submit</button>
                     </div>
-                    <div >
-                        <label class="infostatus" for="info">Your Submission Status: <?php echo $alert;?> </label>
+                    <div>
+                        <label class="infostatus" for="info">Your Submission Status: <?php echo $alert; ?> </label>
 
                     </div>
-                          
+
 
                 </form>
 
@@ -221,23 +219,23 @@ include("../azaelprinting.com-v1/src/sendmail.php");
                     <h1>About us</h1>
                     <p>
                         <!-- <marquee behavior="scroll" direction="up"> -->
-                             Hello everyone! I'm the founder of Azael, a
-                            digital
-                            printing business based here in the city. We
-                            specialize in printing business cards, flyers, brochures, and other promotional
-                            materials. We
-                            also offer customers to have a satisfactory experience make sure your promotional
-                            materials look
-                            exactly the way you At Azael, we use the latest
-                            technology and highest-quality materials to make sure that all of our products stand
-                            out. We
-                            also take pride in providing excellent customer
-                            service, so that you always have a positive experience
-                            with us. We strive to make sure that your project comes out exactly how you
-                            envisioned it. So if
-                            you're looking for a reliable printing service,
-                            look no further than Azael! 
-                            <!-- </marquee> -->
+                        Hello everyone! I'm the founder of Azael, a
+                        digital
+                        printing business based here in the city. We
+                        specialize in printing business cards, flyers, brochures, and other promotional
+                        materials. We
+                        also offer customers to have a satisfactory experience make sure your promotional
+                        materials look
+                        exactly the way you At Azael, we use the latest
+                        technology and highest-quality materials to make sure that all of our products stand
+                        out. We
+                        also take pride in providing excellent customer
+                        service, so that you always have a positive experience
+                        with us. We strive to make sure that your project comes out exactly how you
+                        envisioned it. So if
+                        you're looking for a reliable printing service,
+                        look no further than Azael!
+                        <!-- </marquee> -->
                     </p>
                 </div>
             </div>
@@ -246,8 +244,46 @@ include("../azaelprinting.com-v1/src/sendmail.php");
     <!-- ================================END OF #FIVTH SECTION ======================= -->
     <!-- </div> -->
 
+    <div class="modalContainer displayManagerOfModal">
+        <div class="modalContentContainer">
+
+            <div class="modalBody_1 modalToggler">
+                <div class="modalcloseButtonHolder">
+                    <button class="modalCloseButton ">X</button>
+                </div>
+
+
+                <img class="bgImagemodal" src="./image/index/index5.png" alt="Thsi is picture five ***********">
+
+
+                <div class="gratitudemessageHolder">
+                    <p>
+                        Thank you for reaching to us we will reply to this email as soon as possible! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio, vero est nihil modi voluptatem
+                    </p>
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+
     <?php
-        include("footer.php");
+    include("footer.php");
     ?>
+
+    <script>
+        document.querySelector('.submitbtn').addEventListener('click', () => {
+
+            document.querySelector('.modalContainer').classList.remove('displayManagerOfModal');
+        });
+
+        document.querySelector('.modalCloseButton').addEventListener('click', () => {
+            document.querySelector('.modalContainer').classList.add('displayManagerOfModal');
+        });
+    </script>
+
 
     <script type="text/javascript" src="./dist/script/main.js"></script>
