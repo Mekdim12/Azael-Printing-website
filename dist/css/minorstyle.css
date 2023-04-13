@@ -25,7 +25,7 @@
     overflow: hidden !important;
     position: absolute !important;
     top: 10rem !important;
-    left: 8rem !important;
+    left: 7rem !important;
     right: 35% !important;
     height: 35% !important;
     text-align: left !important;
@@ -48,7 +48,7 @@
     overflow: hidden !important;
     top: 73vh !important;
     position: absolute !important;
-    left: 10vw !important;
+    left: 7vw !important;
     height: 2.7rem !important;
 }
 
@@ -56,6 +56,9 @@
     overflow: hidden !important;
 }
 
+.footer_2,
+.address,
+.uil-location-point,
 .modalcloseButtonHolder,
 .container,
 .homeBackground,
@@ -2057,7 +2060,7 @@
     .fgPra {
         /* width: 80%; */
         top: 7rem !important;
-        left: 10vw !important;
+        left: 7vw !important;
         height: 85% !important;
         text-align: left !important;
         padding-bottom: 0 !important;
@@ -2071,7 +2074,7 @@
         width: 350px !important;
         top: 85vh !important;
         position: absolute !important;
-        left: 10vw !important;
+        left: 7vw !important;
         height: 3rem !important;
         font-size: 21.5 !important;
         text-align: center;
@@ -2094,7 +2097,7 @@
 
     .fgPra {
         top: 12rem !important;
-        left: 10vw !important;
+        left: 7vw !important;
         height: 85% !important;
         text-align: left !important;
         padding-bottom: 0 !important;
@@ -2108,7 +2111,7 @@
         width: 300px !important;
         top: 72vh !important;
         position: absolute !important;
-        left: 10vw !important;
+        left: 7vw !important;
         height: 3.2rem !important;
         font-size: 21.5 !important;
         text-align: center;
