@@ -1,6 +1,6 @@
 <?php
 include("./inclued/header.php");
-include("../azaelprinting.com-v1/src/sendmail.php");
+include("./src/sendmail.php");
 ?>
 
 
