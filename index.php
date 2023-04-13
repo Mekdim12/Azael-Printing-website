@@ -192,8 +192,11 @@ include("./src/sendmail.php");
                         <?php
 
                         ?>
+                        <div class="submitbuttonHolder">
                         <button type="submit" name="submit" class="btn btn-primary submitbtn" id="btn" title="If you finished, just click send button."> Submit</button>
-                    </div>
+                    
+                        </div>
+                        </div>
                     <div>
                         <label class="infostatus" for="info">Your Submission Status: <?php echo $alert; ?> </label>
 
